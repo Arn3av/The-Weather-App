@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecedf7;
+}
+#main-container{
+    display: flex; 
+    height: 80%;
+    width: 70%;
+}
+#main-container #container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4%;
+    padding-top: 6%;
+    width: 42%;
+    border-radius: 15px 0px 0px 15px;
+    background-color: white;
+}
+#welcome-message{
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 6%;
+}
+#required-info{
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 6%;
+}
+.input-label{
+    color: #435064;
+    font-size: small;
+    margin-bottom: 2%;
+}
+#city-name, #Username{
+    margin-bottom: 10%;
+    outline:auto;
+    outline-color: #dddee5;
+    border: none;
+    border-radius: 8% / 50%;
+    font-size: 10px;
+    padding: 4%;
+    height: 2vh;
+    width: 20vw;
+}
+#login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+    width: 66%;
+    margin-top: 2%;
+    cursor: pointer;
+    border-radius: 8% / 50%;
+}
+#main-container #image-container{
+    background-image: url('./Assets/clear_sky_login.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+    border-radius: 0px 15px 15px 0px;
+}

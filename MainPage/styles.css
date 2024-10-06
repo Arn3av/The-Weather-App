@@ -1,0 +1,169 @@
+body{
+    background-color: #438cb9;
+    background-image: url('../Assets/Clouds_Real.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0;
+    padding: 3%;
+}
+#outer-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#navigation-bar{
+    width: 92%;
+    height: 5%;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#main-name{
+    font-weight: 600;
+}
+#navigation-bar #contact-image{
+    background-image: url('../Assets/user-avatar.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    height: 100%;
+    width: 2.5%;
+}
+#navigation-bar #user-avatar{
+    height: 100%;
+    width: 3%;
+    background-image: url('../Assets/dog.png');
+    background-size: cover;
+}
+#navigation-bar #menu-image{
+    margin-left: 4%;
+    height: 100%;
+    width: 3%;
+    background-image: url('../Assets/menu.png');
+    background-size: cover;
+}
+.nav-button-labels{
+    color: white;
+    font-size: small;
+    margin-left: 1%;
+}
+#weather-label{
+    margin-left: 10%;
+}
+#weather-image{
+    width: 50%;
+    height: 87%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* background-color: violet; */
+    object-fit: cover;
+}
+#weather-image #image-of-weather{
+    width: 90%;
+    height: 90%;
+    border-radius: 4%;
+}
+#container{
+    width: 26%;
+    height: 85%;
+    /* background-color: cadetblue; */
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+}
+#container #Greeting{
+    margin-top: 4%;
+    max-width: 20%;
+    font-size: 100px;
+    /* background-color: coral;   */
+    color: white; 
+    font-weight: 600;
+    margin-bottom: 4%;
+}
+#container #weather-description{
+    margin-top: 2.5%;
+    color: white;
+    max-width: 45%;
+    font-size: larger;
+
+    /* background-color: chocolate; */
+}
+#container #wind-box{
+    margin-top: auto;
+    background-color: white;
+    width: 52%;
+    height: 10%;
+    border-radius: 13% / 50%;
+    padding: 0.7%;
+    display: flex;
+    align-items: center;
+}
+#wind-box #wind-symbol{
+    margin-left: 0.7%;
+    width: 25%;
+    height: 100%;
+    /* background-color: #f15685; */
+    background-color: #f44e80;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#wind-symbol #wind-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#wind-box #info-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+#info-box #wind-desc{
+    font-weight: 800;
+    font-size: 17px;
+}
+#wind-box #info-box #label, #wind-box #info-box #wind-speed{
+    color: #f44e80;
+    font-weight: 600;
+    font-size: 17px
+}
+#outer-container #weather-metrics{
+    /* background-color: aqua; */
+    height: 85%;
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 2%;
+}
+#weather-metrics #degree-symbol{
+    color: white;
+    /* background-color: black; */
+    font-size: medium;
+}
+#weather-metrics #temp{
+    margin-top: 4%;
+    font-size: 200px;
+    /* background-color: black; */
+    font-weight: 400;
+    color: white;
+    margin-bottom: 4%;
+}
+#weather-metrics #city-name, #weather-metrics #original-desc{
+    margin-top: 4%;
+    color: white;
+    font-size: 22px;
+}
+#city-name{
+    font-weight: 600;
+}
+#feels-like{
+    color: white;
+}
